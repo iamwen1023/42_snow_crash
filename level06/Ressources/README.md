@@ -5,4 +5,4 @@ LEVEL06
 
 2. The code open a file a do string replacement based on some regex but there is a breach. The modifier `\e` execute php code and it's used here so we will exploite it.
 
-3. We create a file a put `[x {${system(getflag)}}]` in it because the `\e` is used on the second member of the regex (everything after 'x'). '{}' will force interpretation inside and '${}' is the syntaxe to access a value of a variable. That way we force the `system(getflag)` to be executed.
+3. We create a file and put `[x {${system(getflag)}}]` in it because the `\e` is used on the second member of the regex (everything after 'x'). '{}' will force interpretation inside and '${}' is the syntaxe to access a value of a variable. That way we force the `system(getflag)` to be executed.
