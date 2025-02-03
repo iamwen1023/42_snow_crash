@@ -21,7 +21,7 @@ try:
                 break  # Déconnexion du client
 
             message = data.decode("utf-8")
-            print(f"Message receive: {message}")
+            print(f"Message received: {message}")
 
         client_socket.close()
 
