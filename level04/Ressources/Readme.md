@@ -17,5 +17,3 @@ x='%3Bgetflag'
 In this case:
 x=hello is one parameter.
 y=world is another parameter.
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?0221803201138C2D94FA84E2EB427CB60F85
