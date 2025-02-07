@@ -1,6 +1,6 @@
 LEVEL05
 =======
-> We actually get a hint if we connect directly with the SnowCrash VM but not with ssh: "You have a new mail"
+> We actually get a hint if we connect directly with the SnowCrash VM but not with ssh: "You have a new mail", the mail is located at `/var/spool/mail`.
 
 1. We check if we have file in the directory but there is nothing. Then like in the first exercice we check if there are file with flag05 permission somewhere in this machine with `find / -type f -user flag05 2>/dev/null` and we find the file `openarenaserver`
 
